@@ -8,6 +8,14 @@
 	<packaging>war</packaging>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina -->
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-catalina</artifactId>
+			<version>9.0.24</version>
+		</dependency>
+
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
