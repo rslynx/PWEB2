@@ -11,6 +11,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.thymeleaf.spring5.SpringTemplateEngine;
 import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
+import br.edu.ifpb.pweb2.dao.AlunoDAO;
+
 
 @EnableWebMvc
 @ComponentScan(basePackages = {"br.edu.ifpb.pweb2.controller"})
